@@ -8,75 +8,79 @@
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav>
-            <ul>
-                <li><a href="WebStudio">WebStudio</a></li>
-                <li><a href="Студия">Студия</a></li>
-                <li><a href="Портфолио">Портфолио</a></li>
-                <li><a href="Контакты">Контакты</a></li>
+            <a href="WebStudio" class="header-logo">Webs<spann class="header-logo-without-web">Studio</spann></a>
+            <ul class="header-links">
+                <li><a href="index.html" class="header-link-studio">Студия</a></li>
+                <li><a href="portfolio.html" class="header-link-portfolio">Портфолио</a></li>
+                <li><a href="Контакты" class="header-link-contacts">Контакты</a></li>
             </ul>
         </nav>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a href="mailto:info@devstudio.com" class="header-link-mail">info@devstudio.com</a>
+            <a href="tel:+380961111111" class="header-link-tel">+38 096 111 11 11</a>
     </header>
 
-    <section>
-        <button class="button">Все</button>
-        <button class="button">Веб-сайты</button>
-        <button class="button">Приложения</button>
-        <button class="button">Дизайн</button>
-        <button class="button">Маркетинг</button>
-    </section>
-     <div>
-        <figure>
-            <img src="images/img11.jpg" alt="фото сотрудников" width="200" height="200">
-            <figcaption><b>Технокряк</b> Веб-сайт</figcaption>
-        </figure>
-        <figure>
-            <img src="images/img12.jpg" alt="баскетболисты" width="200" height="200">
-            <figcaption><b>Постер New Orlean vs Golden Star</b> Дизайн</figcaption>
-        </figure>
-        <figure>
-            <img src="images/img13.jpg" alt="эмблема ресторана" width="200" height="200">
-            <figcaption><b>Ресторан Seafood</b> Приложение</figcaption>
-        </figure>
-        <figure>
-            <img src="images/img14.jpg" alt="наушники" width="200" height="200">
-            <figcaption><b>Проект Prime</b> Маркетинг</figcaption>
-        <figure>
-             <img src="images/img15.jpg" alt="коричневая и белая коробки" width="200" height="200">
-             <figcaption><b>Проект Boxes</b> Приложение</figcaption>
-        </figure>
-         <figure>
-            <img src="images/img16.jpg" alt="монитор" width="200" height="200">
-            <figcaption><b>Inspiration has no Borders</b> Веб-сайт</figcaption>
-        </figure>
-         <figure>
-            <img src="images/img17.jpg" alt="открытая книга" width="200" height="200">
-            <figcaption><b>Издание Limited Edition</b> Дизайн</figcaption>
-        </figure>
-         <figure>
-            <img src="images/img18.jpg" alt="логотип проекта" width="200" height="200">
-            <figcaption><b>Проект LAB</b> Маркетинг</figcaption>
-        </figure>
-        <figure>
-            <img src="images/img19.jpg" alt="открытый ноутбук" width="200" height="200">
-            <figcaption><b>Growing Business</b> Приложение</figcaption>
-        </figure>
-
-     </div>
-
-      <footer>
-        <a href="WebStudio">WebStudio</a>
-        <address>г. Киев, пр-т Леси Украинки, 26</address>
+        <!-- ОСНОВНИЙ КОНТЕНТ СТОРІНКИ -->
+    <section class="contentportfolio">
+        <button class="button button-all"><span class="button-text-all">Все<span></button>
+        <button class="button button-web"><span class="button-text-web">Веб-сайты</span></button>
+        <button class="button button-application"><span class="button-text-application">Приложения</span></button>
+        <button class="button button-design"><span class="button-text-design">Дизайн</span></button>
+        <button class="button button-marketing"><span class="button-text-marketing">Маркетинг</span></button>
+    
         <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="content-technocrack">
+                <img src="images/img11.jpg" alt="фото сотрудников" class="content-technocrack-picture" width="200" height="200">
+                <h3 class="content-technocrack-picture-title">Технокряк</h3><p class="content-technocrack-picture-occupation">Веб-сайт</p>
+            </li>
+            <li class="content-poster">
+                <img src="images/img12.jpg" alt="баскетболисты" class="content-poster-picture" width="200" height="200">
+                <h3 class="content-poster-picture-title">Постер New Orlean vs Golden Star</h3><p class="content-poster-picture-occupation">Дизайн</p>
+            </li>
+            <li class="content-restoran">
+                <img src="images/img13.jpg" alt="эмблема ресторана" class="content-restoran-picture" width="200" height="200">
+                <h3 class="content-restoran-picture-title">Ресторан Seafood</h3><p class="content-restoran-picture-occupation">Приложение</p>
+            </li>
+            <li class="content-projektprime">
+                <img src="images/img14.jpg" alt="наушники" class="content-projektprime-picture" width="200" height="200">
+                <h3 class="content-projektprime-picture-title">Проект Prime</h3><p class="content-projektprime-picture-occupation">Маркетинг</p>
+            </li>
+            <li class="content-projektboxes">
+                <img src="images/img15.jpg" alt="коричневая и белая коробки" class="content-projektboxes-picture" width="200" height="200">
+                <h3 class="content-projektboxes-picture-title">Проект Boxes</h3><p class="content-projektboxes-picture-occupation">Приложение</p>
+            </li>
+            <li class="content-inspiration">
+                <img src="images/img16.jpg" alt="монитор" class="content-inspiration-picture" width="200" height="200">
+                <h3 class="content-inspiration-picture-title">Inspiration has no Borders</h3><p class="content-inspiration-picture-occupation">Веб-сайт</p>
+            </li>
+            <li class="content-edition">
+                <img src="images/img17.jpg" alt="открытая книга" class="content-edition-picture" width="200" height="200">
+                <h3 class="content-edition-picture-title">Издание Limited Edition</h3><p class="content-edition-picture-occupation">Дизайн</p>
+            <li class="content-projektlab">
+                <img src="images/img18.jpg" alt="логотип проекта" class="content-projektlab-picture" width="200" height="200">
+                <h3 class="content-projektlab-picture-title">Проект LAB</h3><p class="content-projektlab-picture-occupation">Маркетинг</p>
+            </li>
+            <li class="content-growing">
+                <img src="images/img19.jpg" alt="открытый ноутбук" class="content-growing-picture" width="200" height="200">
+                <h3 class="content-growing-picture-title">Growing Business</h3><p class="content-growing-picture-occupation">Приложение</p>
+            </li>
+
+        </ul>
+
+    </section>
+
+        <!-- ФУТЕР -->
+
+    <footer class="footer">
+        <a href="WebStudio" class="footer-logo">Web<spann class="footer-logo-without-web">Studio</spann></a>
+        <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
+        <ul>
+            <li><a href="mailto:info@devstudio.com" class="footer-link-mail">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="footer-link-tel">+38 096 111 11 11</a></li>
         </ul>
 
     </footer>
-
 
     
 </body>
