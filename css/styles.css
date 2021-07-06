@@ -4,7 +4,7 @@
   --occasionally-next-color: #ffffff;
 }
 body {
-  font-family: Roboto sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   color: var(--primery-text-color);
   letter-spacing: 0.03em;
@@ -20,19 +20,21 @@ ul {
 .button:hover,
 .button:focus {
   background: #2196f3;
+  cursor: pointer;
 }
 .button {
-  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 .button-push {
   background: #2196f3;
 }
 .link-webstudio {
-  font-family: Raleway sans-serif;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.19;
   color: #2196f3;
-  font-weight: 700;
   letter-spacing: 0.03em;
 }
 .logo-without-web {
@@ -101,6 +103,7 @@ ul {
   background: #2f303a;
 }
 .work-did-title {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
