@@ -32,7 +32,7 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   color: #2196f3;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 0.03em;
 }
 .logo-without-web {
@@ -64,12 +64,15 @@ ul {
   /* задав колір фону щоб було видно білий напис */
   background: #2f303a;
 }
+.transparent-title {
+  font-size: 1px;
+}
 .title-text {
   font-size: 14px;
   line-height: 1.74;
 }
 .title-work {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   color: var(--title-text-color);
@@ -98,7 +101,7 @@ ul {
   background: #2f303a;
 }
 .work-did-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--title-text-color);
